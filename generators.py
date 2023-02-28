@@ -57,7 +57,7 @@ print(next(gen))
 # 결과: 1
 print(next(gen))
 # 결과: 2
-#print(next(gen))
+print(next(gen))
 '''결과
 Traceback (most recent call last):
   File "/Users/kises/workspace/interpy/generators.py", line 60, in <module>
