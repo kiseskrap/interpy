@@ -70,4 +70,4 @@ my_string = "Kises"
 # 에러: No overload variant of "next" matches argument type "str"mypy(error)
 my_iter = iter(my_string)
 print(next(my_iter))
-
+# 결과: K
