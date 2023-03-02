@@ -1,4 +1,5 @@
 #map, filter, reduce
+from functools import reduce
 
 items = [1, 2, 3, 4, 5]
 squared = []
@@ -51,3 +52,9 @@ for i in range(5):
 number_list = range(-5, 5)
 less_than_zero = list(filter(lambda x: x < 0, number_list))
 print(less_than_zero)
+
+# product = (lambda x,y: x * y)(2, 3)
+product = reduce(lambda x,y: x * y, [1, 2, 3, 4])
+print(product)
+# 결과: 24
+
